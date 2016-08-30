@@ -21,7 +21,7 @@ finaly add the following  lines to your crontab to automate the process
 This will run the script every day at 24:45 hours
 45 23 * * * /home/your_user_name/bin/./sshfail.sh
 
-#you might also like to move the completed reports say to a web site 
+you might also like to move the completed reports say to a web site 
 50 23 * * * rsync -avzh /home/your_user_name/sshfail/ /var/www/html/yoursitename/nasty/
 
 
