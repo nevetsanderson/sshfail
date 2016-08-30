@@ -3,6 +3,9 @@ sshfail is a script to phrase unix sys log information and examine and collate f
 NOTE this script needs a sudo level user to access the /var/log dir it will not run as a standard user out of the box!
 The script is designed to run and work on any modern ubuntu system - It will generate reports to a local direcotry under the users enviroument 
 
+To see an example of the reports generated see
+http://gingercatsoftware.com/nasty/
+
 How to use
 Create a bin directory in your user space if you don't already have one
 
