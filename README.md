@@ -1,7 +1,7 @@
 # sshfail
 Script to phrase unix sys log and examine and collate failed ssh attempts
-
-Designed to run and work on any ubuntu system - will generate reports to a local direcotry under the users enviroument 
+NOTE this script needs a sudo level user to access the /var/log dir it will not run as a standard user
+Designed to run and work on any modern ubuntu system - will generate reports to a local direcotry under the users enviroument 
 
 How to use
 Create a bin directory in your user space if you don't already have one
