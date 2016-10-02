@@ -7,6 +7,7 @@ To see an example of the reports generated see
 http://gingercatsoftware.com/nasty/
 
 How to use
+
 Create a bin directory in your user space if you don't already have one
 
 mkdir  ~/bin
