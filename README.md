@@ -1,7 +1,7 @@
 # sshfail
 sshfail is a script to phrase unix sys log information and examine and collate failed ssh attempts
 NOTE this script needs a sudo level user to access the /var/log dir it will not run as a standard user out of the box!
-The script is designed to run and work on any modern ubuntu system - It will generate reports to a local direcotry under the users enviroument 
+The script is designed to run and work on any modern ubuntu system - It will generate reports to a local direcotry under the users enviroument.
 
 To see an example of the reports generated see
 http://gingercatsoftware.com/nasty/
@@ -35,6 +35,10 @@ This will run the script every day at 24:45 hours
 you might also like to move the completed reports say to a web site 
 50 23 * * * rsync -avzh /home/your_user_name/sshfail/ /var/www/html/yoursitename/nasty/
 
-Good luck!
+Note 10 Jan 2018
+if using this on a raspberry pi you will probably have to add a user to the sudo and adm groups to run have access to the auth log
+sudo usermod -a -G adm {user name hear}
+
+
 
 
